@@ -1,0 +1,9 @@
+# Dependências do Cluster Dask
+
+dask # O núcleo do Dask para lidar com as estruturas de dados
+
+distributed # O motor de processamento em rede 
+
+bokeh # Motor gráfico do Dashboard web
+
+# ==========================================
