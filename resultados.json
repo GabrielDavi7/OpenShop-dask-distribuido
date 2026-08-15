@@ -1022,7 +1022,7 @@
         "melhor_makespan": 2116
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": 20,
+        "tempo_execucao_segundos": null,
         "melhor_makespan": null,
         "nos_ativos": null
       },
