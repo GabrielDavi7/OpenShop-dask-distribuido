@@ -18,11 +18,11 @@ O projeto foi construído separando responsabilidades em três camadas principai
 
 ## ⚙️ Fluxo de Trabalho (Pipeline)
 
-O processo de coleta de dados é dividido em duas fases:
+O processo de experimentação e coleta de métricas é dividido em três fases:
 
-- **Fase 1 (Modo Sequencial / Baseline):** O script orquestrador roda o motor C++ de forma isolada (em uma única máquina) para instâncias específicas de Taillard (ex: `ta28`, `ta60`). O tempo é cronometrado com precisão e salvo como o cenário base.
-- **Fase 2 (Modo Cluster Distribuído):** Múltiplas máquinas são conectadas em uma rede local via Dask. O orquestrador fatia o espaço de busca da vizinhança do VNS e distribui as tarefas pela rede. O tempo total do processamento paralelo é registrado e comparado com a Fase 1.
-- **Fase 3 (Geração de Resultados):** O Python consolida todos os dados extraídos, calcula as porcentagens de melhoria de desempenho e injeta essas informações em um arquivo `resultados.json` que alimenta automaticamente o frontend.
+- **Fase 1 (Modo Sequencial / Baseline):** O script orquestrador roda o motor C++ de forma isolada em uma única máquina, varrendo as instâncias de Taillard (ex: `ta01` a `ta60`). O tempo de execução de toda a vizinhança é cronometrado com precisão para estabelecer nosso cenário base.
+- **Fase 2 (Modo Cluster Distribuído):** Múltiplas máquinas são conectadas em uma rede local via Dask, somando o total de _threads_ disponíveis. O orquestrador fatia o espaço de busca da vizinhança do VNS em lotes menores e os distribui dinamicamente pela rede. O tempo total do processamento paralelo é registrado.
+- **Fase 3 (Geração de Resultados):** O Python consolida todos os dados extraídos, filtra os melhores _makespans_, calcula os ganhos de aceleração (_Speedup_) e injeta essas informações no arquivo `resultados.json` que alimenta o frontend automaticamente.
 
 ---
 
