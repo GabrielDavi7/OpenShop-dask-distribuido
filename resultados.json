@@ -1,0 +1,1386 @@
+{
+  "projeto": "Open Shop Scheduling",
+  "algoritmo": "VNS",
+  "resultados": [
+    {
+      "instancia": "ta01",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.9,
+        "melhor_makespan": 354
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.9,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta02",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.61,
+        "melhor_makespan": 403
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.61,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta03",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.3,
+        "melhor_makespan": 423
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.3,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta04",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.27,
+        "melhor_makespan": 427
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.27,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta05",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.13,
+        "melhor_makespan": 488
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.13,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta06",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.05,
+        "melhor_makespan": 333
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.05,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta07",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.14,
+        "melhor_makespan": 292
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.14,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta08",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.15,
+        "melhor_makespan": 339
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.15,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta09",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.1,
+        "melhor_makespan": 509
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.1,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta10",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 4.09,
+        "melhor_makespan": 316
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 4.09,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta11",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.19,
+        "melhor_makespan": 579
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.19,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta12",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.24,
+        "melhor_makespan": 501
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.24,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta13",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.36,
+        "melhor_makespan": 544
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.36,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta14",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.17,
+        "melhor_makespan": 502
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.17,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta15",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.14,
+        "melhor_makespan": 595
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.14,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta16",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.08,
+        "melhor_makespan": 549
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.08,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta17",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.11,
+        "melhor_makespan": 525
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.11,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta18",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.16,
+        "melhor_makespan": 543
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.16,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta19",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.21,
+        "melhor_makespan": 588
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.21,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta20",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 6.07,
+        "melhor_makespan": 561
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 6.07,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta21",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.55,
+        "melhor_makespan": 846
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.55,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta22",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.55,
+        "melhor_makespan": 776
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.55,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta23",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.49,
+        "melhor_makespan": 848
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.49,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta24",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.69,
+        "melhor_makespan": 844
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.69,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta25",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.47,
+        "melhor_makespan": 768
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.47,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta26",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.6,
+        "melhor_makespan": 803
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.6,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta27",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 12.21,
+        "melhor_makespan": 776
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 12.21,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta28",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.69,
+        "melhor_makespan": 827
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.69,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta29",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.54,
+        "melhor_makespan": 871
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.54,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta30",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 11.45,
+        "melhor_makespan": 788
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 11.45,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta31",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.55,
+        "melhor_makespan": 1362
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.55,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta32",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.66,
+        "melhor_makespan": 1274
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.66,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta33",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.67,
+        "melhor_makespan": 1182
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.67,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta34",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.58,
+        "melhor_makespan": 1191
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.58,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta35",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.82,
+        "melhor_makespan": 1379
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.82,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta36",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.71,
+        "melhor_makespan": 1090
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.71,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta37",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.49,
+        "melhor_makespan": 1263
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.49,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta38",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.55,
+        "melhor_makespan": 1181
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.55,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta39",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.9,
+        "melhor_makespan": 1224
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.9,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta40",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 22.61,
+        "melhor_makespan": 1385
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 22.61,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta41",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 49.54,
+        "melhor_makespan": 2056
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 49.54,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta42",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 51.44,
+        "melhor_makespan": 2052
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 51.44,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta43",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 51.13,
+        "melhor_makespan": 1904
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 51.13,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta44",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 51.42,
+        "melhor_makespan": 2047
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 51.42,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta45",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 53.3,
+        "melhor_makespan": 2116
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": 20,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": null,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta46",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 50.08,
+        "melhor_makespan": 1958
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 50.08,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta47",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 49.47,
+        "melhor_makespan": 1870
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 49.47,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta48",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 50.01,
+        "melhor_makespan": 1849
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 50.01,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta49",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 49.38,
+        "melhor_makespan": 2001
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 49.38,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta50",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 49.22,
+        "melhor_makespan": 1981
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 49.22,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta51",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 96.54,
+        "melhor_makespan": 2473
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 96.54,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta52",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 97.22,
+        "melhor_makespan": 2590
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 97.22,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta53",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 98.73,
+        "melhor_makespan": 2750
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 98.73,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta54",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 96.48,
+        "melhor_makespan": 2751
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 96.48,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta55",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 97.56,
+        "melhor_makespan": 2763
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 97.56,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta56",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 97.43,
+        "melhor_makespan": 2693
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 97.43,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta57",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 96.76,
+        "melhor_makespan": 2874
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 96.76,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta58",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 97.25,
+        "melhor_makespan": 2673
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 97.25,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta59",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 97.6,
+        "melhor_makespan": 2827
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 97.6,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    },
+    {
+      "instancia": "ta60",
+      "tamanho_vizinhanca": 1500,
+      "maquina_isolada": {
+        "tempo_execucao_segundos": 97.25,
+        "melhor_makespan": 2892
+      },
+      "cluster_dask": {
+        "tempo_execucao_segundos": null,
+        "melhor_makespan": null,
+        "nos_ativos": null
+      },
+      "ganho_desempenho_vezes": null,
+      "historico_lotes": [
+        {
+          "id": 1,
+          "lote": "Lote 0-1500",
+          "tempo_isolada": 97.25,
+          "tempo_cluster": null,
+          "status": "Processado"
+        }
+      ]
+    }
+  ]
+}

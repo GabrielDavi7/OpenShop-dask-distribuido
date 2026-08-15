@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import dataLocal from "../../resultados.json";
 import {
   LayoutDashboard,
   Server,
@@ -23,7 +24,6 @@ import {
   Cell,
 } from "recharts";
 
-// --- COMPONENTE DE MÉTRICA ---
 const MetricCard = ({
   title,
   value,
@@ -72,13 +72,9 @@ export default function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const carregarDados = async () => {
+    const carregarDados = () => {
       try {
-        const response = await fetch("/resultadosTESTE.json");
-        if (!response.ok)
-          throw new Error("Erro ao carregar o arquivo de resultados.");
-        const data = await response.json();
-        setDadosGlobais(data);
+        setDadosGlobais(dataLocal);
       } catch {
         setError("Não foi possível carregar o benchmark.");
       } finally {
@@ -124,12 +120,14 @@ export default function App() {
 
   if (isGeral) {
     dadosGlobais.resultados.forEach((res) => {
-      tempoTotalIsolada += res.maquina_isolada.tempo_execucao_segundos;
-      tempoTotalCluster += res.cluster_dask.tempo_execucao_segundos;
+      const tempoIso = res.maquina_isolada.tempo_execucao_segundos || 0;
+      const tempoClus = res.cluster_dask.tempo_execucao_segundos || 0;
+
+      tempoTotalIsolada += tempoIso;
+      tempoTotalCluster += tempoClus;
     });
     tempoTotalEconomizado = tempoTotalIsolada - tempoTotalCluster;
 
-    // Agora o gráfico geral tem apenas 2 barras gigantes (a soma de tudo)
     graficoGeral = [
       {
         name: "Soma Total (Isolada)",
@@ -147,24 +145,26 @@ export default function App() {
   const porcentagemExibida = isGeral
     ? calcularReducaoPercentual(tempoTotalIsolada, tempoTotalCluster)
     : calcularReducaoPercentual(
-        dados.maquina_isolada.tempo_execucao_segundos,
-        dados.cluster_dask.tempo_execucao_segundos,
+        dados.maquina_isolada.tempo_execucao_segundos || 0,
+        dados.cluster_dask.tempo_execucao_segundos || 0,
       );
 
   const multiplicadorExibido = isGeral
-    ? (tempoTotalIsolada / tempoTotalCluster).toFixed(2)
-    : dados.ganho_desempenho_vezes;
+    ? tempoTotalCluster > 0
+      ? (tempoTotalIsolada / tempoTotalCluster).toFixed(2)
+      : 0
+    : dados.ganho_desempenho_vezes || 0;
 
   const graficoEspecifico = !isGeral
     ? [
         {
           name: "Máquina Isolada",
-          tempo: dados.maquina_isolada.tempo_execucao_segundos,
+          tempo: dados.maquina_isolada.tempo_execucao_segundos || 0,
           fill: "#94a3b8",
         },
         {
           name: "Cluster Dask",
-          tempo: dados.cluster_dask.tempo_execucao_segundos,
+          tempo: dados.cluster_dask.tempo_execucao_segundos || 0,
           fill: "#10b981",
         },
       ]
@@ -175,7 +175,6 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-100 p-6 md:p-10 font-sans">
       <div className="max-w-7xl mx-auto flex flex-col gap-8 animate-in fade-in duration-500">
-        {/* Cabeçalho */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 bg-white p-6 rounded-[2rem] shadow-sm border border-slate-200 transition-colors">
           <div className="flex items-center gap-4">
             <div className="p-4 bg-[#4D7BAB]/10 rounded-2xl text-[#4D7BAB]">
@@ -220,19 +219,18 @@ export default function App() {
               <CheckCircle2 size={18} className="text-emerald-600" />
               <span className="text-sm font-bold text-emerald-700">
                 {isGeral
-                  ? dadosGlobais.resultados[0].cluster_dask.nos_ativos
-                  : dados.cluster_dask.nos_ativos}{" "}
+                  ? dadosGlobais.resultados[0]?.cluster_dask.nos_ativos || 0
+                  : dados?.cluster_dask.nos_ativos || 0}{" "}
                 Nós Ativos
               </span>
             </div>
           </div>
         </div>
 
-        {/* Cards de Métricas - DINÂMICOS */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <MetricCard
             title={isGeral ? "Soma Total (Isolada)" : "Máquina Isolada"}
-            value={`${isGeral ? tempoTotalIsolada.toFixed(1) : dados.maquina_isolada.tempo_execucao_segundos}s`}
+            value={`${isGeral ? tempoTotalIsolada.toFixed(1) : dados.maquina_isolada.tempo_execucao_segundos || 0}s`}
             subtitle={
               isGeral
                 ? `Tempo somado nas ${dadosGlobais.resultados.length} instâncias`
@@ -243,7 +241,7 @@ export default function App() {
           />
           <MetricCard
             title={isGeral ? "Soma Total (Cluster)" : "Cluster Dask"}
-            value={`${isGeral ? tempoTotalCluster.toFixed(1) : dados.cluster_dask.tempo_execucao_segundos}s`}
+            value={`${isGeral ? tempoTotalCluster.toFixed(1) : dados.cluster_dask.tempo_execucao_segundos || 0}s`}
             subtitle={
               isGeral
                 ? `Tempo somado nas ${dadosGlobais.resultados.length} instâncias`
@@ -271,7 +269,6 @@ export default function App() {
           />
         </div>
 
-        {/* Área Principal - Gráfico e Detalhes */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 bg-white p-8 rounded-[2rem] border border-slate-200 shadow-sm transition-colors">
             <h3 className="font-bold text-slate-700 mb-8 flex items-center gap-2">
@@ -351,7 +348,7 @@ export default function App() {
                   <p className="text-3xl font-black text-slate-800">
                     {isGeral
                       ? dadosGlobais.resultados.length
-                      : dados.maquina_isolada.melhor_makespan}
+                      : dados.maquina_isolada.melhor_makespan || "-"}
                   </p>
                 </div>
 
@@ -366,7 +363,7 @@ export default function App() {
                   <p className="text-xl font-bold text-slate-800">
                     {isGeral
                       ? "Dask Clusterizado"
-                      : `${dados.tamanho_vizinhanca} permutações`}
+                      : `${dados.tamanho_vizinhanca || 0} permutações`}
                   </p>
                 </div>
               </div>
@@ -375,14 +372,13 @@ export default function App() {
             <div className="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-2xl">
               <p className="text-sm font-bold text-amber-700 leading-relaxed">
                 {isGeral
-                  ? "Em todas as matrizes avaliadas, a soma total comprova a eficiência da distribuição paralela para problemas complexos de  Shop."
-                  : `Os resultados de makespan foram idênticos em ambos os testes da instância ${dados.instancia}, garantindo a integridade da distribuição.`}
+                  ? "Em todas as matrizes avaliadas, a soma total comprova a eficiência da distribuição paralela para problemas complexos de Open Shop."
+                  : `Os resultados de makespan foram validados na instância ${dados.instancia}, garantindo a integridade da distribuição.`}
               </p>
             </div>
           </div>
         </div>
 
-        {/* Tabela de Detalhes */}
         <div className="bg-white border border-slate-200 rounded-[2rem] shadow-sm overflow-hidden transition-colors">
           <div className="p-6 bg-slate-50 border-b border-slate-200 flex justify-between items-center">
             <h3 className="font-bold text-slate-700">
@@ -422,22 +418,22 @@ export default function App() {
                           {res.instancia}
                         </td>
                         <td className="px-6 py-4 text-sm font-medium text-slate-500">
-                          {res.maquina_isolada.tempo_execucao_segundos}s
+                          {res.maquina_isolada.tempo_execucao_segundos || 0}s
                         </td>
                         <td className="px-6 py-4 text-sm font-bold text-slate-800">
-                          {res.cluster_dask.tempo_execucao_segundos}s
+                          {res.cluster_dask.tempo_execucao_segundos || 0}s
                         </td>
                         <td className="px-6 py-4 text-sm font-bold text-emerald-600">
                           -
                           {calcularReducaoPercentual(
-                            res.maquina_isolada.tempo_execucao_segundos,
-                            res.cluster_dask.tempo_execucao_segundos,
+                            res.maquina_isolada.tempo_execucao_segundos || 0,
+                            res.cluster_dask.tempo_execucao_segundos || 0,
                           )}
                           %
                         </td>
                         <td className="px-6 py-4">
                           <span className="px-3 py-1 rounded-full text-[10px] font-bold border uppercase bg-blue-50 text-blue-700 border-blue-200">
-                            {res.ganho_desempenho_vezes}x
+                            {res.ganho_desempenho_vezes || 0}x
                           </span>
                         </td>
                       </tr>
@@ -451,16 +447,16 @@ export default function App() {
                           {row.lote}
                         </td>
                         <td className="px-6 py-4 text-sm font-medium text-slate-500">
-                          {row.tempo_isolada}s
+                          {row.tempo_isolada || 0}s
                         </td>
                         <td className="px-6 py-4 text-sm font-bold text-slate-800">
-                          {row.tempo_cluster}s
+                          {row.tempo_cluster || 0}s
                         </td>
                         <td className="px-6 py-4 text-sm font-bold text-emerald-600">
                           -
                           {calcularReducaoPercentual(
-                            row.tempo_isolada,
-                            row.tempo_cluster,
+                            row.tempo_isolada || 0,
+                            row.tempo_cluster || 0,
                           )}
                           %
                         </td>
