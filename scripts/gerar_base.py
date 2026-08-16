@@ -2,16 +2,20 @@ import subprocess
 import time
 import json
 import os
+import platform
+import glob
 
-EXECUTAVEL = r".\vns_worker.exe"
-PASTA_INSTANCIAS = r"openshop\instancias"
+DIRETORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+DIRETORIO_RAIZ = os.path.dirname(DIRETORIO_SCRIPT)
+DIRETORIO_OPENSHOP = os.path.join(DIRETORIO_RAIZ, "openshop")
 
-todas_instancias_do_projeto = [f"ta{str(i).zfill(2)}" for i in range(1, 61)]
-
-instancias_para_rodar = todas_instancias_do_projeto 
+sistema = platform.system()
+NOME_EXECUTAVEL = "vns_worker.exe" if sistema == "Windows" else "vns_worker"
+EXECUTAVEL = os.path.join(DIRETORIO_OPENSHOP, NOME_EXECUTAVEL)
+PASTA_INSTANCIAS = os.path.join(DIRETORIO_OPENSHOP, "instancias")
 
 INICIO_LOTE = 0
-FIM_LOTE = 1500
+FIM_LOTE = 2999
 
 dados_completos = {
     "projeto": "Open Shop Scheduling",
@@ -19,13 +23,24 @@ dados_completos = {
     "resultados": []
 }
 
-print("Iniciando o processamento das  instâncias...\n")
+print("==========================================")
+print("Iniciando Fase 1: Gerando Base Single Machine")
+print("==========================================\n")
 
-for nome_curto in todas_instancias_do_projeto:
+arquivos_encontrados = glob.glob(os.path.join(PASTA_INSTANCIAS, "*"))
+
+if not arquivos_encontrados:
+    print(f"[ERRO CRÍTICO] Nenhum arquivo foi encontrado na pasta: {PASTA_INSTANCIAS}")
+    exit()
+
+for caminho_instancia in arquivos_encontrados:
+    
+    nome_arquivo = os.path.basename(caminho_instancia)
+    nome_curto = nome_arquivo.replace("Osp.psi", "").replace(".txt", "").replace(".psi", "")
     
     bloco_instancia = {
         "instancia": nome_curto,
-        "tamanho_vizinhanca": FIM_LOTE - INICIO_LOTE,
+        "tamanho_vizinhanca": (FIM_LOTE - INICIO_LOTE) + 1,
         "maquina_isolada": {
             "tempo_execucao_segundos": None,
             "melhor_makespan": None
@@ -47,37 +62,43 @@ for nome_curto in todas_instancias_do_projeto:
         ]
     }
 
-    if nome_curto in instancias_para_rodar:
-        nome_arquivo = f"{nome_curto}Osp.psi"
-        caminho_instancia = os.path.join(PASTA_INSTANCIAS, nome_arquivo)
-        
-        if os.path.exists(caminho_instancia):
-            print(f"⏳ O C++ está processando a {nome_curto}...")
-            
-            tempo_inicio = time.time()
-            comando = [EXECUTAVEL, caminho_instancia, str(INICIO_LOTE), str(FIM_LOTE)]
-            processo = subprocess.run(comando, capture_output=True, text=True)
-            tempo_total = time.time() - tempo_inicio
-            
-            makespan = None
-            for linha in processo.stdout.split('\n'):
-                if "MAKESPAN:" in linha:
-                    makespan = int(linha.split(":")[1].strip())
-                    break
-            
-            if makespan is not None:
-                print(f" Concluído! Makespan: {makespan} | Tempo: {tempo_total:.2f} s\n")
-                bloco_instancia["maquina_isolada"]["tempo_execucao_segundos"] = round(tempo_total, 2)
-                bloco_instancia["maquina_isolada"]["melhor_makespan"] = makespan
-                bloco_instancia["historico_lotes"][0]["tempo_isolada"] = round(tempo_total, 2)
-                bloco_instancia["historico_lotes"][0]["status"] = "Processado"
-        else:
-            print(f" Arquivo não encontrado: {caminho_instancia} (Ficará com valores null)\n")
+    print(f"⏳ O C++ está processando a {nome_curto} ({nome_arquivo})...")
+    
+    tempo_inicio = time.time()
+    
+    comando = [EXECUTAVEL, caminho_instancia, str(INICIO_LOTE), str(FIM_LOTE)]
+    
+    try:
+        processo = subprocess.run(comando, capture_output=True, text=True, check=True, cwd=DIRETORIO_OPENSHOP)
+    except Exception as e:
+        print(f"[ERRO] Falha ao executar o C++ para o arquivo {nome_arquivo}: {e}\n")
+        continue
+
+    tempo_total = time.time() - tempo_inicio
+    
+    makespan = None
+    for linha in processo.stdout.split('\n'):
+        if "MAKESPAN:" in linha:
+            makespan = int(linha.split(":")[1].strip())
+            break
+    
+    if makespan is not None:
+        print(f"-> Concluído! Makespan: {makespan} | Tempo: {tempo_total:.2f} s\n")
+        bloco_instancia["maquina_isolada"]["tempo_execucao_segundos"] = round(tempo_total, 2)
+        bloco_instancia["maquina_isolada"]["melhor_makespan"] = makespan
+        bloco_instancia["historico_lotes"][0]["tempo_isolada"] = round(tempo_total, 2)
+        bloco_instancia["historico_lotes"][0]["status"] = "Processado"
+    else:
+        print(f"[ERRO] Falha ao capturar o MAKESPAN na {nome_curto}. Verifique a saída do C++.\n")
 
     dados_completos["resultados"].append(bloco_instancia)
 
-caminho_json = "resultados.json"
+caminho_json = os.path.join(DIRETORIO_SCRIPT, "resultados.json") 
+
 with open(caminho_json, "w", encoding="utf-8") as f:
     json.dump(dados_completos, f, indent=2)
 
-print(f" Processamento das 60 instâncias finalizado! O arquivo '{caminho_json}' foi gerado.")
+print("==========================================")
+print("Processamento das instâncias finalizado!")
+print(f"O arquivo '{caminho_json}' foi gerado!")
+print("==========================================")

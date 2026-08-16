@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install -y build-essential python3-pip python3-venv
 
 echo "[2/4] Compilando o Motor Matemático C++ (Versão Nativa)..."
-g++ openshop/src/main_worker.cpp openshop/src/Grafo.cpp openshop/src/ParserTA.cpp -o vns_worker -O3
+g++ openshop/src/main_worker.cpp openshop/src/Grafo.cpp openshop/src/ParserTA.cpp -o openshop/vns_worker -O3
 echo "-> Compilação C++ concluída! Binário 'vns_worker' gerado."
 
 echo "[3/4] Instalando dependências do Python (Dask)..."

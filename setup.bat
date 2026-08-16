@@ -5,7 +5,7 @@ echo =====================================================
 
 echo [1/3] Compilando o Motor Matematico C++...
 REM Presume que o GCC (MinGW) esteja instalado e configurado no PATH do Windows
-g++ openshop\src\main_worker.cpp openshop\src\Grafo.cpp openshop\src\ParserTA.cpp -o vns_worker.exe -O3
+g++ openshop\src\main_worker.cpp openshop\src\Grafo.cpp openshop\src\ParserTA.cpp -o openshop\vns_worker.exe -O3
 echo - Compilacao C++ concluida! Binario 'vns_worker.exe' gerado.
 
 echo [2/3] Instalando dependencias do Python (Dask)...
