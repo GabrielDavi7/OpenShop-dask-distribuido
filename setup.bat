@@ -1,21 +1,24 @@
-REM arquivo de instalacao do projeto Dask+VNS ele roda o requirements.txt do cluster e o npm install do frontend VERSÂO WINDOWS
-
 @echo off
-echo ==========================================
-echo Iniciando a instalacao do Projeto Dask+VNS
-echo ==========================================
+echo =====================================================
+echo Iniciando a instalacao do Projeto Dask+VNS (WINDOWS)
+echo =====================================================
 
-echo [1/2] Instalando dependencias do Python (Dask)...
+echo [1/3] Compilando o Motor Matematico C++...
+REM Presume que o GCC (MinGW) esteja instalado e configurado no PATH do Windows
+g++ openshop\src\main_worker.cpp openshop\src\Grafo.cpp openshop\src\ParserTA.cpp -o vns_worker.exe -O3
+echo - Compilacao C++ concluida! Binario 'vns_worker.exe' gerado.
+
+echo [2/3] Instalando dependencias do Python (Dask)...
 pip install -r cluster\requirements.txt
 
-echo [2/2] Instalando dependencias do Frontend (React/Vite)...
+echo [3/3] Instalando dependencias do Frontend (React/Vite)...
 cd apresentacao
 call npm install
 cd ..
 
-echo ==========================================
-echo Instalacao concluida com sucesso!
-echo - Para rodar o cluster: entre na pasta cluster e rode 'python master_dask.py'
-echo - Para rodar a interface: entre na pasta apresentacao e rode 'npm run dev'
-echo ==========================================
+echo =====================================================
+echo Instalacao no Windows concluida com sucesso!
+echo - Para rodar o cluster: cd cluster e rode 'python rodar_cluster.py'
+echo - Para rodar a interface: cd apresentacao e rode 'npm run dev'
+echo =====================================================
 pause
