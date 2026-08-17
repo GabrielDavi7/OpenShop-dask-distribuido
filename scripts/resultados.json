@@ -4,10 +4,10 @@
   "resultados": [
     {
       "instancia": "ta01",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
-        "melhor_makespan": 354
+        "tempo_execucao_segundos": 8.63,
+        "melhor_makespan": 358
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -18,8 +18,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 8.63,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -27,9 +27,9 @@
     },
     {
       "instancia": "ta02",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 9.22,
         "melhor_makespan": 403
       },
       "cluster_dask": {
@@ -41,8 +41,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 9.22,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -50,9 +50,9 @@
     },
     {
       "instancia": "ta03",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 9.28,
         "melhor_makespan": 423
       },
       "cluster_dask": {
@@ -64,8 +64,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 9.28,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -73,10 +73,10 @@
     },
     {
       "instancia": "ta04",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
-        "melhor_makespan": 427
+        "tempo_execucao_segundos": 8.2,
+        "melhor_makespan": 418
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -87,8 +87,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 8.2,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -96,9 +96,9 @@
     },
     {
       "instancia": "ta05",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 10.36,
         "melhor_makespan": 488
       },
       "cluster_dask": {
@@ -110,8 +110,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 10.36,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -119,9 +119,9 @@
     },
     {
       "instancia": "ta06",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 10.37,
         "melhor_makespan": 333
       },
       "cluster_dask": {
@@ -133,8 +133,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 10.37,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -142,9 +142,9 @@
     },
     {
       "instancia": "ta07",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 9.69,
         "melhor_makespan": 292
       },
       "cluster_dask": {
@@ -156,8 +156,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 9.69,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -165,9 +165,9 @@
     },
     {
       "instancia": "ta08",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 9.07,
         "melhor_makespan": 449
       },
       "cluster_dask": {
@@ -179,8 +179,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 9.07,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -188,9 +188,9 @@
     },
     {
       "instancia": "ta09",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 8.21,
         "melhor_makespan": 509
       },
       "cluster_dask": {
@@ -202,8 +202,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 8.21,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -211,10 +211,10 @@
     },
     {
       "instancia": "ta10",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
-        "melhor_makespan": 366
+        "tempo_execucao_segundos": 9.35,
+        "melhor_makespan": 309
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -225,8 +225,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 9.35,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -234,10 +234,10 @@
     },
     {
       "instancia": "ta11",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
-        "melhor_makespan": 579
+        "tempo_execucao_segundos": 14.15,
+        "melhor_makespan": 544
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -248,8 +248,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 14.15,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -257,9 +257,9 @@
     },
     {
       "instancia": "ta12",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 13.04,
         "melhor_makespan": 501
       },
       "cluster_dask": {
@@ -271,8 +271,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 13.04,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -280,10 +280,10 @@
     },
     {
       "instancia": "ta13",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
-        "melhor_makespan": 654
+        "tempo_execucao_segundos": 12.79,
+        "melhor_makespan": 592
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -294,8 +294,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 12.79,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -303,9 +303,9 @@
     },
     {
       "instancia": "ta14",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 13.07,
         "melhor_makespan": 599
       },
       "cluster_dask": {
@@ -317,8 +317,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 13.07,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -326,10 +326,10 @@
     },
     {
       "instancia": "ta15",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
-        "melhor_makespan": 647
+        "tempo_execucao_segundos": 12.75,
+        "melhor_makespan": 536
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -340,8 +340,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 12.75,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -349,10 +349,10 @@
     },
     {
       "instancia": "ta16",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
-        "melhor_makespan": 714
+        "tempo_execucao_segundos": 11.66,
+        "melhor_makespan": 664
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -363,8 +363,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 11.66,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -372,9 +372,9 @@
     },
     {
       "instancia": "ta17",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 11.77,
         "melhor_makespan": 644
       },
       "cluster_dask": {
@@ -386,8 +386,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 11.77,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -395,10 +395,10 @@
     },
     {
       "instancia": "ta18",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
-        "melhor_makespan": 515
+        "tempo_execucao_segundos": 11.55,
+        "melhor_makespan": 533
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -409,8 +409,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 11.55,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -418,9 +418,9 @@
     },
     {
       "instancia": "ta19",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.02,
+        "tempo_execucao_segundos": 11.75,
         "melhor_makespan": 588
       },
       "cluster_dask": {
@@ -432,8 +432,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.02,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 11.75,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -441,10 +441,10 @@
     },
     {
       "instancia": "ta20",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
-        "melhor_makespan": 676
+        "tempo_execucao_segundos": 11.64,
+        "melhor_makespan": 667
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -455,8 +455,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 11.64,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -464,9 +464,9 @@
     },
     {
       "instancia": "ta21",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 22.29,
         "melhor_makespan": 859
       },
       "cluster_dask": {
@@ -478,8 +478,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 22.29,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -487,9 +487,9 @@
     },
     {
       "instancia": "ta22",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 22.28,
         "melhor_makespan": 776
       },
       "cluster_dask": {
@@ -501,8 +501,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 22.28,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -510,9 +510,9 @@
     },
     {
       "instancia": "ta23",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 21.98,
         "melhor_makespan": 848
       },
       "cluster_dask": {
@@ -524,8 +524,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 21.98,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -533,10 +533,10 @@
     },
     {
       "instancia": "ta24",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
-        "melhor_makespan": 862
+        "tempo_execucao_segundos": 21.81,
+        "melhor_makespan": 844
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -547,8 +547,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 21.81,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -556,10 +556,10 @@
     },
     {
       "instancia": "ta25",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
-        "melhor_makespan": 858
+        "tempo_execucao_segundos": 22.19,
+        "melhor_makespan": 777
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -570,8 +570,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 22.19,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -579,9 +579,9 @@
     },
     {
       "instancia": "ta26",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 21.94,
         "melhor_makespan": 899
       },
       "cluster_dask": {
@@ -593,8 +593,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 21.94,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -602,9 +602,9 @@
     },
     {
       "instancia": "ta27",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 21.6,
         "melhor_makespan": 776
       },
       "cluster_dask": {
@@ -616,8 +616,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 21.6,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -625,9 +625,9 @@
     },
     {
       "instancia": "ta28",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 21.83,
         "melhor_makespan": 855
       },
       "cluster_dask": {
@@ -639,8 +639,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 21.83,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -648,10 +648,10 @@
     },
     {
       "instancia": "ta29",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
-        "melhor_makespan": 871
+        "tempo_execucao_segundos": 24.03,
+        "melhor_makespan": 800
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -662,8 +662,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 24.03,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -671,9 +671,9 @@
     },
     {
       "instancia": "ta30",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.03,
+        "tempo_execucao_segundos": 23.02,
         "melhor_makespan": 831
       },
       "cluster_dask": {
@@ -685,8 +685,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.03,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 23.02,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -694,9 +694,9 @@
     },
     {
       "instancia": "ta31",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
+        "tempo_execucao_segundos": 43.82,
         "melhor_makespan": 1362
       },
       "cluster_dask": {
@@ -708,8 +708,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 43.82,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -717,9 +717,9 @@
     },
     {
       "instancia": "ta32",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.05,
+        "tempo_execucao_segundos": 44.24,
         "melhor_makespan": 1274
       },
       "cluster_dask": {
@@ -731,8 +731,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.05,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 44.24,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -740,9 +740,9 @@
     },
     {
       "instancia": "ta33",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.05,
+        "tempo_execucao_segundos": 49.63,
         "melhor_makespan": 1182
       },
       "cluster_dask": {
@@ -754,8 +754,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.05,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 49.63,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -763,9 +763,9 @@
     },
     {
       "instancia": "ta34",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.05,
+        "tempo_execucao_segundos": 44.93,
         "melhor_makespan": 1191
       },
       "cluster_dask": {
@@ -777,8 +777,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.05,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 44.93,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -786,9 +786,9 @@
     },
     {
       "instancia": "ta35",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
+        "tempo_execucao_segundos": 44.26,
         "melhor_makespan": 1379
       },
       "cluster_dask": {
@@ -800,8 +800,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 44.26,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -809,10 +809,10 @@
     },
     {
       "instancia": "ta36",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
-        "melhor_makespan": 1090
+        "tempo_execucao_segundos": 43.21,
+        "melhor_makespan": 1081
       },
       "cluster_dask": {
         "tempo_execucao_segundos": null,
@@ -823,8 +823,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 43.21,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -832,9 +832,9 @@
     },
     {
       "instancia": "ta37",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
+        "tempo_execucao_segundos": 43.64,
         "melhor_makespan": 1263
       },
       "cluster_dask": {
@@ -846,8 +846,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 43.64,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -855,9 +855,9 @@
     },
     {
       "instancia": "ta38",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
+        "tempo_execucao_segundos": 43.16,
         "melhor_makespan": 1181
       },
       "cluster_dask": {
@@ -869,8 +869,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 43.16,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -878,9 +878,9 @@
     },
     {
       "instancia": "ta39",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
+        "tempo_execucao_segundos": 43.81,
         "melhor_makespan": 1217
       },
       "cluster_dask": {
@@ -892,8 +892,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 43.81,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -901,9 +901,9 @@
     },
     {
       "instancia": "ta40",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.04,
+        "tempo_execucao_segundos": 43.01,
         "melhor_makespan": 1385
       },
       "cluster_dask": {
@@ -915,8 +915,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.04,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 43.01,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -924,9 +924,9 @@
     },
     {
       "instancia": "ta41",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.08,
+        "tempo_execucao_segundos": 96.17,
         "melhor_makespan": 2056
       },
       "cluster_dask": {
@@ -938,8 +938,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.08,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 96.17,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -947,9 +947,9 @@
     },
     {
       "instancia": "ta42",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.08,
+        "tempo_execucao_segundos": 97.94,
         "melhor_makespan": 2052
       },
       "cluster_dask": {
@@ -961,8 +961,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.08,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 97.94,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -970,9 +970,9 @@
     },
     {
       "instancia": "ta43",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.08,
+        "tempo_execucao_segundos": 102.34,
         "melhor_makespan": 1904
       },
       "cluster_dask": {
@@ -984,8 +984,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.08,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 102.34,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -993,9 +993,9 @@
     },
     {
       "instancia": "ta44",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.09,
+        "tempo_execucao_segundos": 102.09,
         "melhor_makespan": 2047
       },
       "cluster_dask": {
@@ -1007,8 +1007,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.09,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 102.09,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1016,9 +1016,9 @@
     },
     {
       "instancia": "ta45",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.09,
+        "tempo_execucao_segundos": 96.61,
         "melhor_makespan": 2116
       },
       "cluster_dask": {
@@ -1030,8 +1030,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.09,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 96.61,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1039,9 +1039,9 @@
     },
     {
       "instancia": "ta46",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.08,
+        "tempo_execucao_segundos": 96.95,
         "melhor_makespan": 1958
       },
       "cluster_dask": {
@@ -1053,8 +1053,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.08,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 96.95,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1062,9 +1062,9 @@
     },
     {
       "instancia": "ta47",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.09,
+        "tempo_execucao_segundos": 96.29,
         "melhor_makespan": 1870
       },
       "cluster_dask": {
@@ -1076,8 +1076,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.09,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 96.29,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1085,9 +1085,9 @@
     },
     {
       "instancia": "ta48",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.09,
+        "tempo_execucao_segundos": 95.32,
         "melhor_makespan": 1849
       },
       "cluster_dask": {
@@ -1099,8 +1099,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.09,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 95.32,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1108,9 +1108,9 @@
     },
     {
       "instancia": "ta49",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.09,
+        "tempo_execucao_segundos": 96.34,
         "melhor_makespan": 2001
       },
       "cluster_dask": {
@@ -1122,8 +1122,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.09,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 96.34,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1131,9 +1131,9 @@
     },
     {
       "instancia": "ta50",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.09,
+        "tempo_execucao_segundos": 96.66,
         "melhor_makespan": 1981
       },
       "cluster_dask": {
@@ -1145,8 +1145,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.09,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 96.66,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1154,9 +1154,9 @@
     },
     {
       "instancia": "ta51",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.14,
+        "tempo_execucao_segundos": 186.82,
         "melhor_makespan": 2473
       },
       "cluster_dask": {
@@ -1168,8 +1168,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.14,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.82,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1177,9 +1177,9 @@
     },
     {
       "instancia": "ta52",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.15,
+        "tempo_execucao_segundos": 186.65,
         "melhor_makespan": 2590
       },
       "cluster_dask": {
@@ -1191,8 +1191,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.15,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.65,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1200,9 +1200,9 @@
     },
     {
       "instancia": "ta53",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.14,
+        "tempo_execucao_segundos": 186.71,
         "melhor_makespan": 2750
       },
       "cluster_dask": {
@@ -1214,8 +1214,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.14,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.71,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1223,9 +1223,9 @@
     },
     {
       "instancia": "ta54",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.15,
+        "tempo_execucao_segundos": 186.74,
         "melhor_makespan": 2751
       },
       "cluster_dask": {
@@ -1237,8 +1237,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.15,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.74,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1246,9 +1246,9 @@
     },
     {
       "instancia": "ta55",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.14,
+        "tempo_execucao_segundos": 189.7,
         "melhor_makespan": 2763
       },
       "cluster_dask": {
@@ -1260,8 +1260,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.14,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 189.7,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1269,9 +1269,9 @@
     },
     {
       "instancia": "ta56",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.15,
+        "tempo_execucao_segundos": 186.94,
         "melhor_makespan": 2693
       },
       "cluster_dask": {
@@ -1283,8 +1283,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.15,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.94,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1292,9 +1292,9 @@
     },
     {
       "instancia": "ta57",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.14,
+        "tempo_execucao_segundos": 188.61,
         "melhor_makespan": 2874
       },
       "cluster_dask": {
@@ -1306,8 +1306,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.14,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 188.61,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1315,9 +1315,9 @@
     },
     {
       "instancia": "ta58",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.15,
+        "tempo_execucao_segundos": 186.83,
         "melhor_makespan": 2673
       },
       "cluster_dask": {
@@ -1329,8 +1329,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.15,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.83,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1338,9 +1338,9 @@
     },
     {
       "instancia": "ta59",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.14,
+        "tempo_execucao_segundos": 186.21,
         "melhor_makespan": 2827
       },
       "cluster_dask": {
@@ -1352,8 +1352,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.14,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 186.21,
           "tempo_cluster": null,
           "status": "Processado"
         }
@@ -1361,9 +1361,9 @@
     },
     {
       "instancia": "ta60",
-      "tamanho_vizinhanca": 3,
+      "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 0.15,
+        "tempo_execucao_segundos": 189.08,
         "melhor_makespan": 2892
       },
       "cluster_dask": {
@@ -1375,8 +1375,8 @@
       "historico_lotes": [
         {
           "id": 1,
-          "lote": "Lote 0-2",
-          "tempo_isolada": 0.15,
+          "lote": "Lote 0-2999",
+          "tempo_isolada": 189.08,
           "tempo_cluster": null,
           "status": "Processado"
         }

@@ -62,7 +62,7 @@ for caminho_instancia in arquivos_encontrados:
         ]
     }
 
-    print(f"⏳ O C++ está processando a {nome_curto} ({nome_arquivo})...")
+    print(f"O C++ está processando a {nome_curto} ({nome_arquivo})...")
     
     tempo_inicio = time.time()
     

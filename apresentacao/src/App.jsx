@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import dataLocal from "../../resultados.json";
+import dataLocal from "../../scripts/resultados.json";
 import {
   LayoutDashboard,
   Server,
