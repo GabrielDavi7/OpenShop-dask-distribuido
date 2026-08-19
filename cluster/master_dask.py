@@ -1,35 +1,28 @@
 import json
 import time
 import os
-import platform
 from dask.distributed import Client, as_completed
 
 DIRETORIO_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 DIRETORIO_RAIZ = os.path.dirname(DIRETORIO_SCRIPT)
-DIRETORIO_OPENSHOP = os.path.join(DIRETORIO_RAIZ, "openshop")
-CAMINHO_JSON = os.path.join(DIRETORIO_SCRIPT, "resultados.json")
+CAMINHO_JSON = os.path.join(DIRETORIO_RAIZ, "scripts", "resultados.json")
 
-# 15 vai ser o numero de vizinhos que cada thread vai processar, ou seja, cada thread vai executar 15 vizinhos do VNS distribuido entre os computadores
-# como temos 3000 vai ser 3000/15 = 200 lotes
+# 15 vizinhos por lote processado por cada thread
 TAMANHO_LOTE = 15  
 
-def executar_lote_vns(caminho_instancia, inicio, fim, diretorio_openshop): 
-    """
-    Função executada de forma isolada pelas threads nos workers (notebooks da equipe).
-    As importações devem ficar dentro da função para o Dask conseguir enviá-las pela rede.
-    """
+def executar_lote_vns(nome_instancia, inicio, fim): 
     import subprocess
-    import platform
     import os
     
-    sistema = platform.system()
-    nome_executavel = "vns_worker.exe" if sistema == "Windows" else "vns_worker"
-    executavel = os.path.join(diretorio_openshop, nome_executavel)
+    DIRETORIO_UNIVERSAL = r"C:\openshop"
+    
+    executavel = os.path.join(DIRETORIO_UNIVERSAL, "vns_worker.exe")
+    caminho_instancia = os.path.join(DIRETORIO_UNIVERSAL, "instancias", nome_instancia)
     
     comando = [executavel, caminho_instancia, str(inicio), str(fim)]
     
     try:
-        processo = subprocess.run(comando, capture_output=True, text=True, check=True, cwd=diretorio_openshop)
+        processo = subprocess.run(comando, capture_output=True, text=True, check=True, cwd=DIRETORIO_UNIVERSAL)
         makespan = None
         for linha in processo.stdout.split('\n'):
             if "MAKESPAN:" in linha:
@@ -40,12 +33,13 @@ def executar_lote_vns(caminho_instancia, inicio, fim, diretorio_openshop):
         print(f"Erro no worker ao processar lote {inicio}-{fim}: {e}")
         return float('inf')
 
+
 def main():
     print("==========================================")
     print("Orquestrador Dask (Cluster)")
     print("==========================================\n")
     
-    cliente = Client() 
+    cliente = Client('tcp://26.166.53.48:8786')
     nos_ativos = sum(cliente.nthreads().values())
     
     print(f"-> Cluster Dask conectado com sucesso!")
@@ -74,18 +68,17 @@ def main():
 
         tamanho_total = resultado["tamanho_vizinhanca"]
         nome_arquivo = f"{instancia}Osp.psi"
-        caminho_instancia = os.path.join(DIRETORIO_OPENSHOP, "instancias", nome_arquivo)
 
         print(f"Fatiando {instancia} para o cluster ({tamanho_total} vizinhos)...")
         
         tempo_inicio = time.time()
         tarefas = []
 
-
         for inicio in range(0, tamanho_total, TAMANHO_LOTE):
             fim = min(inicio + TAMANHO_LOTE - 1, tamanho_total - 1)
             
-            tarefa = cliente.submit(executar_lote_vns, caminho_instancia, inicio, fim, DIRETORIO_OPENSHOP)
+            # Enviamos APENAS o nome do arquivo para o worker, pois ele já sabe buscar na C:\openshop
+            tarefa = cliente.submit(executar_lote_vns, nome_arquivo, inicio, fim)
             tarefas.append(tarefa)
 
         melhor_makespan_cluster = float('inf')
@@ -116,7 +109,7 @@ def main():
 
     print("==========================================")
     print("Processamento do Cluster finalizado com sucesso!")
-    print("O arquivo 'resultados.json' está preenchido e pronto para o React!")
+    print("O arquivo 'resultados.json' está preenchido!")
     print("==========================================")
     
     cliente.close()

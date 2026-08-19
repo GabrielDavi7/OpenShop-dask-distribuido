@@ -15,7 +15,7 @@ EXECUTAVEL = os.path.join(DIRETORIO_OPENSHOP, NOME_EXECUTAVEL)
 PASTA_INSTANCIAS = os.path.join(DIRETORIO_OPENSHOP, "instancias")
 
 INICIO_LOTE = 0
-FIM_LOTE = 2999
+FIM_LOTE = 9999
 
 dados_completos = {
     "projeto": "Open Shop Scheduling",
@@ -24,7 +24,7 @@ dados_completos = {
 }
 
 print("==========================================")
-print("Iniciando Fase 1: Gerando Base Single Machine")
+print("Iniciando Fase 1: Gerando Base Single Machine 10000")
 print("==========================================\n")
 
 arquivos_encontrados = glob.glob(os.path.join(PASTA_INSTANCIAS, "*"))

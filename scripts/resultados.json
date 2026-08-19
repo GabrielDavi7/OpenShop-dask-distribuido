@@ -6,21 +6,21 @@
       "instancia": "ta01",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 8.63,
+        "tempo_execucao_segundos": 7.89,
         "melhor_makespan": 358
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 5.4,
+        "melhor_makespan": 302,
+        "nos_ativos": 40
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.46,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 8.63,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.89,
+          "tempo_cluster": 5.4,
           "status": "Processado"
         }
       ]
@@ -29,21 +29,21 @@
       "instancia": "ta02",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 9.22,
+        "tempo_execucao_segundos": 7.89,
         "melhor_makespan": 403
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.15,
+        "melhor_makespan": 383,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.1,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 9.22,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.89,
+          "tempo_cluster": 7.15,
           "status": "Processado"
         }
       ]
@@ -52,21 +52,21 @@
       "instancia": "ta03",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 9.28,
+        "tempo_execucao_segundos": 7.77,
         "melhor_makespan": 423
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.74,
+        "melhor_makespan": 423,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.15,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 9.28,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.77,
+          "tempo_cluster": 6.74,
           "status": "Processado"
         }
       ]
@@ -75,21 +75,21 @@
       "instancia": "ta04",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 8.2,
+        "tempo_execucao_segundos": 7.81,
         "melhor_makespan": 418
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.87,
+        "melhor_makespan": 385,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.14,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 8.2,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.81,
+          "tempo_cluster": 6.87,
           "status": "Processado"
         }
       ]
@@ -98,21 +98,21 @@
       "instancia": "ta05",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 10.36,
+        "tempo_execucao_segundos": 7.78,
         "melhor_makespan": 488
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.48,
+        "melhor_makespan": 481,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.04,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 10.36,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.78,
+          "tempo_cluster": 7.48,
           "status": "Processado"
         }
       ]
@@ -121,21 +121,21 @@
       "instancia": "ta06",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 10.37,
+        "tempo_execucao_segundos": 7.84,
         "melhor_makespan": 333
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.22,
+        "melhor_makespan": 298,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.09,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 10.37,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.84,
+          "tempo_cluster": 7.22,
           "status": "Processado"
         }
       ]
@@ -144,21 +144,21 @@
       "instancia": "ta07",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 9.69,
+        "tempo_execucao_segundos": 7.8,
         "melhor_makespan": 292
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.33,
+        "melhor_makespan": 292,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.06,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 9.69,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.8,
+          "tempo_cluster": 7.33,
           "status": "Processado"
         }
       ]
@@ -167,21 +167,21 @@
       "instancia": "ta08",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 9.07,
+        "tempo_execucao_segundos": 7.88,
         "melhor_makespan": 449
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.92,
+        "melhor_makespan": 339,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.14,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 9.07,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.88,
+          "tempo_cluster": 6.92,
           "status": "Processado"
         }
       ]
@@ -190,21 +190,21 @@
       "instancia": "ta09",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 8.21,
+        "tempo_execucao_segundos": 7.79,
         "melhor_makespan": 509
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.22,
+        "melhor_makespan": 418,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.08,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 8.21,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.79,
+          "tempo_cluster": 7.22,
           "status": "Processado"
         }
       ]
@@ -213,21 +213,21 @@
       "instancia": "ta10",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 9.35,
+        "tempo_execucao_segundos": 7.8,
         "melhor_makespan": 309
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.92,
+        "melhor_makespan": 309,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.13,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 9.35,
-          "tempo_cluster": null,
+          "tempo_isolada": 7.8,
+          "tempo_cluster": 6.92,
           "status": "Processado"
         }
       ]
@@ -236,21 +236,21 @@
       "instancia": "ta11",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 14.15,
+        "tempo_execucao_segundos": 11.75,
         "melhor_makespan": 544
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.81,
+        "melhor_makespan": 489,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.73,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 14.15,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.75,
+          "tempo_cluster": 6.81,
           "status": "Processado"
         }
       ]
@@ -259,21 +259,21 @@
       "instancia": "ta12",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 13.04,
+        "tempo_execucao_segundos": 11.63,
         "melhor_makespan": 501
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.11,
+        "melhor_makespan": 402,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.64,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 13.04,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.63,
+          "tempo_cluster": 7.11,
           "status": "Processado"
         }
       ]
@@ -282,21 +282,21 @@
       "instancia": "ta13",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 12.79,
+        "tempo_execucao_segundos": 11.63,
         "melhor_makespan": 592
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.75,
+        "melhor_makespan": 544,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.72,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 12.79,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.63,
+          "tempo_cluster": 6.75,
           "status": "Processado"
         }
       ]
@@ -305,21 +305,21 @@
       "instancia": "ta14",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 13.07,
+        "tempo_execucao_segundos": 11.59,
         "melhor_makespan": 599
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.82,
+        "melhor_makespan": 494,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.7,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 13.07,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.59,
+          "tempo_cluster": 6.82,
           "status": "Processado"
         }
       ]
@@ -328,21 +328,21 @@
       "instancia": "ta15",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 12.75,
+        "tempo_execucao_segundos": 11.73,
         "melhor_makespan": 536
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.85,
+        "melhor_makespan": 513,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.71,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 12.75,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.73,
+          "tempo_cluster": 6.85,
           "status": "Processado"
         }
       ]
@@ -351,21 +351,21 @@
       "instancia": "ta16",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 11.66,
+        "tempo_execucao_segundos": 11.63,
         "melhor_makespan": 664
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.8,
+        "melhor_makespan": 458,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.71,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 11.66,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.63,
+          "tempo_cluster": 6.8,
           "status": "Processado"
         }
       ]
@@ -374,21 +374,21 @@
       "instancia": "ta17",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 11.77,
+        "tempo_execucao_segundos": 11.67,
         "melhor_makespan": 644
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.8,
+        "melhor_makespan": 503,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.72,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 11.77,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.67,
+          "tempo_cluster": 6.8,
           "status": "Processado"
         }
       ]
@@ -397,21 +397,21 @@
       "instancia": "ta18",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 11.55,
+        "tempo_execucao_segundos": 11.62,
         "melhor_makespan": 533
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.0,
+        "melhor_makespan": 484,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.66,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 11.55,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.62,
+          "tempo_cluster": 7.0,
           "status": "Processado"
         }
       ]
@@ -420,21 +420,21 @@
       "instancia": "ta19",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 11.75,
+        "tempo_execucao_segundos": 11.62,
         "melhor_makespan": 588
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.87,
+        "melhor_makespan": 550,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.48,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 11.75,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.62,
+          "tempo_cluster": 7.87,
           "status": "Processado"
         }
       ]
@@ -443,21 +443,21 @@
       "instancia": "ta20",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 11.64,
+        "tempo_execucao_segundos": 11.58,
         "melhor_makespan": 667
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.06,
+        "melhor_makespan": 538,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 1.64,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 11.64,
-          "tempo_cluster": null,
+          "tempo_isolada": 11.58,
+          "tempo_cluster": 7.06,
           "status": "Processado"
         }
       ]
@@ -466,21 +466,21 @@
       "instancia": "ta21",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 22.29,
+        "tempo_execucao_segundos": 23.15,
         "melhor_makespan": 859
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.11,
+        "melhor_makespan": 846,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.25,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 22.29,
-          "tempo_cluster": null,
+          "tempo_isolada": 23.15,
+          "tempo_cluster": 7.11,
           "status": "Processado"
         }
       ]
@@ -489,21 +489,21 @@
       "instancia": "ta22",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 22.28,
+        "tempo_execucao_segundos": 22.83,
         "melhor_makespan": 776
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.42,
+        "melhor_makespan": 776,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.08,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 22.28,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.83,
+          "tempo_cluster": 7.42,
           "status": "Processado"
         }
       ]
@@ -512,21 +512,21 @@
       "instancia": "ta23",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 21.98,
+        "tempo_execucao_segundos": 22.19,
         "melhor_makespan": 848
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.81,
+        "melhor_makespan": 836,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 2.84,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 21.98,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.19,
+          "tempo_cluster": 7.81,
           "status": "Processado"
         }
       ]
@@ -535,21 +535,21 @@
       "instancia": "ta24",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 21.81,
+        "tempo_execucao_segundos": 22.39,
         "melhor_makespan": 844
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.51,
+        "melhor_makespan": 862,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 2.98,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 21.81,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.39,
+          "tempo_cluster": 7.51,
           "status": "Processado"
         }
       ]
@@ -558,21 +558,21 @@
       "instancia": "ta25",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 22.19,
+        "tempo_execucao_segundos": 22.04,
         "melhor_makespan": 777
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.94,
+        "melhor_makespan": 723,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.18,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 22.19,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.04,
+          "tempo_cluster": 6.94,
           "status": "Processado"
         }
       ]
@@ -581,21 +581,21 @@
       "instancia": "ta26",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 21.94,
+        "tempo_execucao_segundos": 22.24,
         "melhor_makespan": 899
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.18,
+        "melhor_makespan": 899,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.1,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 21.94,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.24,
+          "tempo_cluster": 7.18,
           "status": "Processado"
         }
       ]
@@ -604,21 +604,21 @@
       "instancia": "ta27",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 21.6,
+        "tempo_execucao_segundos": 22.21,
         "melhor_makespan": 776
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.88,
+        "melhor_makespan": 776,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.23,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 21.6,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.21,
+          "tempo_cluster": 6.88,
           "status": "Processado"
         }
       ]
@@ -627,21 +627,21 @@
       "instancia": "ta28",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 21.83,
+        "tempo_execucao_segundos": 22.2,
         "melhor_makespan": 855
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.94,
+        "melhor_makespan": 784,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.2,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 21.83,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.2,
+          "tempo_cluster": 6.94,
           "status": "Processado"
         }
       ]
@@ -650,21 +650,21 @@
       "instancia": "ta29",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 24.03,
+        "tempo_execucao_segundos": 22.21,
         "melhor_makespan": 800
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.91,
+        "melhor_makespan": 838,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.21,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 24.03,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.21,
+          "tempo_cluster": 6.91,
           "status": "Processado"
         }
       ]
@@ -673,21 +673,21 @@
       "instancia": "ta30",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 23.02,
+        "tempo_execucao_segundos": 22.4,
         "melhor_makespan": 831
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 6.98,
+        "melhor_makespan": 761,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 3.21,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 23.02,
-          "tempo_cluster": null,
+          "tempo_isolada": 22.4,
+          "tempo_cluster": 6.98,
           "status": "Processado"
         }
       ]
@@ -696,21 +696,21 @@
       "instancia": "ta31",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 43.82,
+        "tempo_execucao_segundos": 43.65,
         "melhor_makespan": 1362
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.52,
+        "melhor_makespan": 1362,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.8,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 43.82,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.65,
+          "tempo_cluster": 7.52,
           "status": "Processado"
         }
       ]
@@ -719,21 +719,21 @@
       "instancia": "ta32",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 44.24,
+        "tempo_execucao_segundos": 43.55,
         "melhor_makespan": 1274
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.95,
+        "melhor_makespan": 1274,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.48,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 44.24,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.55,
+          "tempo_cluster": 7.95,
           "status": "Processado"
         }
       ]
@@ -742,21 +742,21 @@
       "instancia": "ta33",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 49.63,
+        "tempo_execucao_segundos": 44.23,
         "melhor_makespan": 1182
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.61,
+        "melhor_makespan": 1173,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.81,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 49.63,
-          "tempo_cluster": null,
+          "tempo_isolada": 44.23,
+          "tempo_cluster": 7.61,
           "status": "Processado"
         }
       ]
@@ -765,21 +765,21 @@
       "instancia": "ta34",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 44.93,
+        "tempo_execucao_segundos": 44.53,
         "melhor_makespan": 1191
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.35,
+        "melhor_makespan": 1191,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 6.06,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 44.93,
-          "tempo_cluster": null,
+          "tempo_isolada": 44.53,
+          "tempo_cluster": 7.35,
           "status": "Processado"
         }
       ]
@@ -788,21 +788,21 @@
       "instancia": "ta35",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 44.26,
+        "tempo_execucao_segundos": 43.73,
         "melhor_makespan": 1379
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.51,
+        "melhor_makespan": 1379,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.82,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 44.26,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.73,
+          "tempo_cluster": 7.51,
           "status": "Processado"
         }
       ]
@@ -811,21 +811,21 @@
       "instancia": "ta36",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 43.21,
+        "tempo_execucao_segundos": 43.8,
         "melhor_makespan": 1081
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.47,
+        "melhor_makespan": 1083,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.86,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 43.21,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.8,
+          "tempo_cluster": 7.47,
           "status": "Processado"
         }
       ]
@@ -834,21 +834,21 @@
       "instancia": "ta37",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 43.64,
+        "tempo_execucao_segundos": 43.47,
         "melhor_makespan": 1263
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.04,
+        "melhor_makespan": 1263,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.41,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 43.64,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.47,
+          "tempo_cluster": 8.04,
           "status": "Processado"
         }
       ]
@@ -857,21 +857,21 @@
       "instancia": "ta38",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 43.16,
+        "tempo_execucao_segundos": 43.69,
         "melhor_makespan": 1181
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.37,
+        "melhor_makespan": 1181,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.93,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 43.16,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.69,
+          "tempo_cluster": 7.37,
           "status": "Processado"
         }
       ]
@@ -880,21 +880,21 @@
       "instancia": "ta39",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 43.81,
+        "tempo_execucao_segundos": 43.7,
         "melhor_makespan": 1217
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.36,
+        "melhor_makespan": 1217,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.94,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 43.81,
-          "tempo_cluster": null,
+          "tempo_isolada": 43.7,
+          "tempo_cluster": 7.36,
           "status": "Processado"
         }
       ]
@@ -903,21 +903,21 @@
       "instancia": "ta40",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 43.01,
+        "tempo_execucao_segundos": 44.56,
         "melhor_makespan": 1385
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 7.53,
+        "melhor_makespan": 1385,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 5.91,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 43.01,
-          "tempo_cluster": null,
+          "tempo_isolada": 44.56,
+          "tempo_cluster": 7.53,
           "status": "Processado"
         }
       ]
@@ -926,21 +926,21 @@
       "instancia": "ta41",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 96.17,
+        "tempo_execucao_segundos": 96.49,
         "melhor_makespan": 2056
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.49,
+        "melhor_makespan": 2056,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 11.37,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 96.17,
-          "tempo_cluster": null,
+          "tempo_isolada": 96.49,
+          "tempo_cluster": 8.49,
           "status": "Processado"
         }
       ]
@@ -949,21 +949,21 @@
       "instancia": "ta42",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 97.94,
+        "tempo_execucao_segundos": 95.94,
         "melhor_makespan": 2052
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.58,
+        "melhor_makespan": 2052,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 11.18,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 97.94,
-          "tempo_cluster": null,
+          "tempo_isolada": 95.94,
+          "tempo_cluster": 8.58,
           "status": "Processado"
         }
       ]
@@ -972,21 +972,21 @@
       "instancia": "ta43",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 102.34,
+        "tempo_execucao_segundos": 97.6,
         "melhor_makespan": 1904
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.62,
+        "melhor_makespan": 1904,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 11.32,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 102.34,
-          "tempo_cluster": null,
+          "tempo_isolada": 97.6,
+          "tempo_cluster": 8.62,
           "status": "Processado"
         }
       ]
@@ -995,21 +995,21 @@
       "instancia": "ta44",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 102.09,
+        "tempo_execucao_segundos": 96.84,
         "melhor_makespan": 2047
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.88,
+        "melhor_makespan": 2024,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 10.91,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 102.09,
-          "tempo_cluster": null,
+          "tempo_isolada": 96.84,
+          "tempo_cluster": 8.88,
           "status": "Processado"
         }
       ]
@@ -1018,21 +1018,21 @@
       "instancia": "ta45",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 96.61,
+        "tempo_execucao_segundos": 97.66,
         "melhor_makespan": 2116
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.78,
+        "melhor_makespan": 2116,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 11.12,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 96.61,
-          "tempo_cluster": null,
+          "tempo_isolada": 97.66,
+          "tempo_cluster": 8.78,
           "status": "Processado"
         }
       ]
@@ -1041,21 +1041,21 @@
       "instancia": "ta46",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 96.95,
+        "tempo_execucao_segundos": 95.46,
         "melhor_makespan": 1958
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.5,
+        "melhor_makespan": 1958,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 11.24,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 96.95,
-          "tempo_cluster": null,
+          "tempo_isolada": 95.46,
+          "tempo_cluster": 8.5,
           "status": "Processado"
         }
       ]
@@ -1064,21 +1064,21 @@
       "instancia": "ta47",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 96.29,
+        "tempo_execucao_segundos": 96.59,
         "melhor_makespan": 1870
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 9.31,
+        "melhor_makespan": 1870,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 10.38,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 96.29,
-          "tempo_cluster": null,
+          "tempo_isolada": 96.59,
+          "tempo_cluster": 9.31,
           "status": "Processado"
         }
       ]
@@ -1087,21 +1087,21 @@
       "instancia": "ta48",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 95.32,
+        "tempo_execucao_segundos": 97.03,
         "melhor_makespan": 1849
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 9.09,
+        "melhor_makespan": 1849,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 10.67,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 95.32,
-          "tempo_cluster": null,
+          "tempo_isolada": 97.03,
+          "tempo_cluster": 9.09,
           "status": "Processado"
         }
       ]
@@ -1110,21 +1110,21 @@
       "instancia": "ta49",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 96.34,
+        "tempo_execucao_segundos": 97.59,
         "melhor_makespan": 2001
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.81,
+        "melhor_makespan": 2001,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 11.07,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 96.34,
-          "tempo_cluster": null,
+          "tempo_isolada": 97.59,
+          "tempo_cluster": 8.81,
           "status": "Processado"
         }
       ]
@@ -1133,21 +1133,21 @@
       "instancia": "ta50",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 96.66,
+        "tempo_execucao_segundos": 96.87,
         "melhor_makespan": 1981
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 8.89,
+        "melhor_makespan": 1981,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 10.9,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 96.66,
-          "tempo_cluster": null,
+          "tempo_isolada": 96.87,
+          "tempo_cluster": 8.89,
           "status": "Processado"
         }
       ]
@@ -1156,21 +1156,21 @@
       "instancia": "ta51",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.82,
+        "tempo_execucao_segundos": 189.0,
         "melhor_makespan": 2473
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 11.11,
+        "melhor_makespan": 2473,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 17.02,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.82,
-          "tempo_cluster": null,
+          "tempo_isolada": 189.0,
+          "tempo_cluster": 11.11,
           "status": "Processado"
         }
       ]
@@ -1179,21 +1179,21 @@
       "instancia": "ta52",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.65,
+        "tempo_execucao_segundos": 189.19,
         "melhor_makespan": 2590
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 10.53,
+        "melhor_makespan": 2590,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 17.97,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.65,
-          "tempo_cluster": null,
+          "tempo_isolada": 189.19,
+          "tempo_cluster": 10.53,
           "status": "Processado"
         }
       ]
@@ -1202,21 +1202,21 @@
       "instancia": "ta53",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.71,
+        "tempo_execucao_segundos": 187.87,
         "melhor_makespan": 2750
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 10.92,
+        "melhor_makespan": 2750,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 17.21,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.71,
-          "tempo_cluster": null,
+          "tempo_isolada": 187.87,
+          "tempo_cluster": 10.92,
           "status": "Processado"
         }
       ]
@@ -1225,21 +1225,21 @@
       "instancia": "ta54",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.74,
+        "tempo_execucao_segundos": 189.07,
         "melhor_makespan": 2751
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 11.93,
+        "melhor_makespan": 2751,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 15.85,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.74,
-          "tempo_cluster": null,
+          "tempo_isolada": 189.07,
+          "tempo_cluster": 11.93,
           "status": "Processado"
         }
       ]
@@ -1248,21 +1248,21 @@
       "instancia": "ta55",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 189.7,
+        "tempo_execucao_segundos": 188.68,
         "melhor_makespan": 2763
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 12.19,
+        "melhor_makespan": 2763,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 15.48,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 189.7,
-          "tempo_cluster": null,
+          "tempo_isolada": 188.68,
+          "tempo_cluster": 12.19,
           "status": "Processado"
         }
       ]
@@ -1271,21 +1271,21 @@
       "instancia": "ta56",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.94,
+        "tempo_execucao_segundos": 188.94,
         "melhor_makespan": 2693
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 10.9,
+        "melhor_makespan": 2693,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 17.33,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.94,
-          "tempo_cluster": null,
+          "tempo_isolada": 188.94,
+          "tempo_cluster": 10.9,
           "status": "Processado"
         }
       ]
@@ -1294,21 +1294,21 @@
       "instancia": "ta57",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 188.61,
+        "tempo_execucao_segundos": 188.48,
         "melhor_makespan": 2874
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 10.79,
+        "melhor_makespan": 2874,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 17.46,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 188.61,
-          "tempo_cluster": null,
+          "tempo_isolada": 188.48,
+          "tempo_cluster": 10.79,
           "status": "Processado"
         }
       ]
@@ -1317,21 +1317,21 @@
       "instancia": "ta58",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.83,
+        "tempo_execucao_segundos": 188.47,
         "melhor_makespan": 2673
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 10.87,
+        "melhor_makespan": 2673,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 17.34,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.83,
-          "tempo_cluster": null,
+          "tempo_isolada": 188.47,
+          "tempo_cluster": 10.87,
           "status": "Processado"
         }
       ]
@@ -1340,21 +1340,21 @@
       "instancia": "ta59",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 186.21,
+        "tempo_execucao_segundos": 188.48,
         "melhor_makespan": 2827
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 12.37,
+        "melhor_makespan": 2827,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 15.23,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 186.21,
-          "tempo_cluster": null,
+          "tempo_isolada": 188.48,
+          "tempo_cluster": 12.37,
           "status": "Processado"
         }
       ]
@@ -1363,21 +1363,21 @@
       "instancia": "ta60",
       "tamanho_vizinhanca": 3000,
       "maquina_isolada": {
-        "tempo_execucao_segundos": 189.08,
+        "tempo_execucao_segundos": 188.64,
         "melhor_makespan": 2892
       },
       "cluster_dask": {
-        "tempo_execucao_segundos": null,
-        "melhor_makespan": null,
-        "nos_ativos": null
+        "tempo_execucao_segundos": 11.17,
+        "melhor_makespan": 2892,
+        "nos_ativos": 44
       },
-      "ganho_desempenho_vezes": null,
+      "ganho_desempenho_vezes": 16.88,
       "historico_lotes": [
         {
           "id": 1,
           "lote": "Lote 0-2999",
-          "tempo_isolada": 189.08,
-          "tempo_cluster": null,
+          "tempo_isolada": 188.64,
+          "tempo_cluster": 11.17,
           "status": "Processado"
         }
       ]
